@@ -36,7 +36,7 @@ Example
 
 - Request
 
-`GET /api/v1/products/price-condition?price=5000&condition=GREATER_THAN`
+`GET /api/v1/products/price-condition?price=5000&condition=LESS_THAN`
 
 - Response
 
