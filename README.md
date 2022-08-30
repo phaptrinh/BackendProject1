@@ -20,7 +20,7 @@ Request parameters:
 - price: numeric (required)
 - condition: EQUAL | LESS_THAN | GREATER_THAN (required)
 
-Example API
+Example APIs
 ```
 GET /api/v1/products/price-condition?price=5000&condition=EQUAL (success)
 
@@ -82,7 +82,7 @@ Request parameters:
 - min-price: numeric (optional)
 - max-price: numeric (optional)
 
-Example API
+Example APIs
 ```
 GET /api/v1/products/price-range (success)
 
@@ -173,7 +173,9 @@ Request parameters:
 Example APIs:
 ```
 GET /api/v1/cart?customer-id=11&product-name=pham&offset=0&limit=3 (success)
+
 GET /api/v1/cart?customer-id=11&product-name=phamn&offset=0&limit=3 (error)
+
 GET /api/v1/cart?customer-id=12&product-name=San pham&offset=0&limit=3 (error)
 ```
 Example:
